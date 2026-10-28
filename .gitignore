@@ -1,0 +1,14 @@
+# Browser exports and private records
+alfred-backup-*.json
+*backup*.json
+exports/
+backups/
+private/
+.env
+.env.*
+!.env.example
+*.local
+*.log
+.DS_Store
+node_modules/
+coverage/
