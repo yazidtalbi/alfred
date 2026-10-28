@@ -12,6 +12,12 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
+## Pitch Studio
+
+Open **Pitch Studio** from the left navigation or visit `pitch-studio/index.html`. The studio lets you import an existing prospect, edit a structured sales brief, optionally run a public Google PageSpeed Insights mobile check, generate a six-slide presentation, export a standalone printable HTML deck, and download a 48-second cinematic storyboard plus copyable production brief. Saved studio records live in the existing `alfred-workspace-v1` browser storage and are included in Alfred’s JSON backup. This is a **local draft and export workflow**, not a connected AI/video rendering service. Real video generation, voiceovers, 3D artwork and automatic design creation require separate services.
+
+Use `node tests/pitch-studio.cjs` for Pitch Studio core checks.
+
 ## Features
 
 - Project accordions and a persistent project timer with pause/resume and manual time entries.
